@@ -168,18 +168,21 @@ body{
 @media(max-width:768px){
 
     .flip-card{
-        height:80px;
+        height:70px;
     }
     .flip-card span,
     .flip-page{
-        font-size:2rem;
+        font-size:1.6rem;
     }
     .flip-card::before {
-        width: 8px;
-        height: 8px;
+        width: 6px;
+        height: 6px;
     }
     .padding-bottom{
         padding-bottom: 30px;
+    }
+    #dynamic-text-label{
+        font-size: 1.6rem;
     }
 
 }
